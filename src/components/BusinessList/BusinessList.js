@@ -10,7 +10,7 @@ import Business from '../Business/Business';
 // Create BusinessList Component
 class BusinessList extends React.Component {
   render() {
-    (
+    return (
       <div className="BusinessList">
         <Business />
         <Business />
