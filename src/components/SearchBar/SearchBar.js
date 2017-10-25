@@ -1,12 +1,16 @@
+// Import react
 import React from 'react';
+// Import css
 import './SearchBar.css';
 
+// Create the sortByOptions object
 const sortByOptions= {
   "Best Match": 'best_match',
   "Highest Rated": 'rating',
   "Most Reviewed": 'review_count'
 };
 
+// Create the Searchbar Component
 class SearchBar extends React.Component {
   constructor(props) {
     super(props);
@@ -74,4 +78,5 @@ class SearchBar extends React.Component {
   }
 };
 
+// Export SearchBar
 export default SearchBar;
